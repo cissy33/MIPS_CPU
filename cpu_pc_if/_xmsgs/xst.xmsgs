@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"E:\fpga_svn\cpu_pc_imem\top_cla_32.v" Line 29: Assignment to <arg fmt="%s" index="1">g</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"E:\fpga_svn\cpu_pc_imem\top_mem.v" Line 36: Assignment to <arg fmt="%s" index="1">instr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">e:/fpga_svn/cpu_pc_imem/top_mem.v</arg>&quot; line <arg fmt="%d" index="2">35</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pcreg</arg>&gt; of block &lt;<arg fmt="%s" index="4">dffe</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">top_mem</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">e:/fpga_svn/cpu_pc_imem/top_mem.v</arg>&quot; line <arg fmt="%d" index="2">36</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pipeif</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipe_if</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">top_mem</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/fpga_svn/cpu_pc_imem/top_mem.v</arg>&quot; line <arg fmt="%s" index="2">36</arg>: Output port &lt;<arg fmt="%s" index="3">ram_outdata</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pipeif</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="3149" delta="new" >Value &quot;<arg fmt="%s" index="1">{AUTO | BLOCK |  BLOCK_POWER1 | BLOCK_POWER2}</arg>&quot; of property &quot;<arg fmt="%s" index="2">RAM_STYLE</arg>&quot; is not applicable.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/fpga_svn/cpu_pc_imem/top_cla_32.v</arg>&quot; line <arg fmt="%s" index="2">29</arg>: Output port &lt;<arg fmt="%s" index="3">g_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cla0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">e:/fpga_svn/cpu_pc_imem/top_cla_32.v</arg>&quot; line <arg fmt="%s" index="2">29</arg>: Output port &lt;<arg fmt="%s" index="3">p_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cla0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

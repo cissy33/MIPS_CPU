@@ -1,0 +1,345 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\fpga_svn\mem
+vadd
+Z1 !s100 2zTfkId>k?dH<4KHoO@?H3
+Z2 I<9JCe4h^:U=PDYHNRFdSl1
+Z3 VC@cb3>WzNZ5@CgM_HYz_O0
+Z4 dE:\fpga_svn\cpu_pc_imem
+Z5 w1350355847
+Z6 8add.v
+Z7 Fadd.v
+L0 21
+Z8 OE;L;10.0c;49
+r1
+31
+Z9 !s90 -reportprogress|300|add.v|
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z11 !s108 1366618927.384000
+Z12 !s107 add.v|
+!s85 0
+vcla_16
+Z13 !s100 @zRjk6jFdP2:hW1HMnDJ_0
+Z14 I5?]PVPz3W@cC24CNW07Vb2
+Z15 VW2>NXGA?HW3;XQ[W5FW;83
+R4
+Z16 w1354163571
+Z17 8cla_16.v
+Z18 Fcla_16.v
+L0 21
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|cla_16.v|
+R10
+Z20 !s108 1366618927.574000
+Z21 !s107 cla_16.v|
+!s85 0
+vcla_2
+Z22 !s100 X7<hjGlc1PniLYgBF5h^W1
+Z23 In1iA`2_XgnHfj]<BUhF6<2
+Z24 V5K;kWgC`2A6ZTCbHkM=U10
+R4
+Z25 w1350435454
+Z26 8cla_2.v
+Z27 Fcla_2.v
+L0 21
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|cla_2.v|
+R10
+Z29 !s108 1366618927.419000
+Z30 !s107 cla_2.v|
+!s85 0
+vcla_32
+Z31 !s100 TH174XU[Qbc5g=nKOz@SM2
+Z32 I>cBV<KJ@_1S4fBccR5z@S3
+Z33 VRoE4aAbLOgcan>n`zWbGB3
+R4
+Z34 w1354164783
+Z35 8cla_32.v
+Z36 Fcla_32.v
+L0 21
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|cla_32.v|
+R10
+Z38 !s108 1366618927.613000
+Z39 !s107 cla_32.v|
+!s85 0
+vcla_4
+Z40 !s100 T1mSBLWBD6:ER_5h:]Z=n2
+Z41 Io2W]LBBR420H]IX9;LbVZ2
+Z42 VoJFRnWX1akReI50Fi`IDT1
+R4
+Z43 w1350436115
+Z44 8cla_4.v
+Z45 Fcla_4.v
+L0 21
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|cla_4.v|
+R10
+Z47 !s108 1366618927.477000
+Z48 !s107 cla_4.v|
+!s85 0
+vcla_8
+Z49 !s100 XiOziG3IO:7_GV9`6c8Ke0
+Z50 IAaT05ek<k?G<N0Nih`Hk83
+Z51 VBjE6N>8=:hogd4helN[zi2
+R4
+Z52 w1354153309
+Z53 8cla_8.v
+Z54 Fcla_8.v
+L0 21
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|cla_8.v|
+R10
+Z56 !s108 1366618927.514000
+Z57 !s107 cla_8.v|
+!s85 0
+vclk_div
+Z58 I_ALe9f=neZb9AMdCKiQ0T1
+Z59 V6?nLaLTZ4l<1DQGF3=NH40
+Z60 dE:\fpga_svn\mem
+Z61 w1366077031
+Z62 8clk_div.v
+Z63 Fclk_div.v
+L0 21
+R8
+r1
+31
+R10
+Z64 !s100 Xm0JnWC>GzUch`BWMcci]0
+Z65 !s108 1366077097.607000
+Z66 !s107 clk_div.v|
+Z67 !s90 -reportprogress|300|clk_div.v|
+!s85 0
+vclk_div_tb
+Z68 I=nP`=MkP7UChgCSB2X9e:3
+Z69 VaKb;AFU4=hN`Ib6n9Pl^Y2
+R60
+Z70 w1366076930
+Z71 8clk_div_tb.v
+Z72 Fclk_div_tb.v
+L0 25
+R8
+r1
+31
+R10
+Z73 !s100 h;F6lj2Gb:n_^jjce5YR=1
+Z74 !s108 1366077097.824000
+Z75 !s107 clk_div_tb.v|
+Z76 !s90 -reportprogress|300|clk_div_tb.v|
+!s85 0
+vdffe
+Z77 !s100 iVELZg[JBHiZj@3ak7FTh0
+Z78 I_`2;Gm?Do99`Uk`H@6V571
+Z79 V^N^GeoeZG`9JCijR5P<NV2
+R4
+Z80 w1366025088
+Z81 8dffe.v
+Z82 Fdffe.v
+L0 21
+R8
+r1
+31
+Z83 !s90 -reportprogress|300|dffe.v|
+R10
+Z84 !s108 1366618927.757000
+Z85 !s107 dffe.v|
+!s85 0
+vg_p
+Z86 !s100 _TX2J3U]Vi`RGN5IF0=_i1
+Z87 IC2C>iWBk[;zJZ@7OM81J12
+Z88 Vo0FN`A@EWkN1ILD>nQNWH2
+R4
+Z89 w1354105065
+Z90 8g_p.v
+Z91 Fg_p.v
+L0 21
+R8
+r1
+31
+Z92 !s90 -reportprogress|300|g_p.v|
+R10
+Z93 !s108 1366618927.271000
+Z94 !s107 g_p.v|
+!s85 0
+vglbl
+Z95 !s100 V<`KW`8LXe32mQ2Gdj1MB2
+Z96 IFO;UBj`VnzY[Ym4SWVVm;3
+Z97 VM[9mS]S:KA1i4VeCMX35[3
+R4
+Z98 w1317695952
+Z99 8D:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v
+Z100 FD:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1366618927.870000
+!s107 D:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v|
+Z101 !s90 -reportprogress|300|D:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v|
+R10
+vlog_tb
+Z102 IMN3=_O<m[kD8QX??N7?5e1
+Z103 Vj^k3GoZTKd^>YzeY7l5PZ2
+R60
+Z104 w1366098875
+Z105 8log_tb.v
+Z106 Flog_tb.v
+L0 25
+R8
+r1
+31
+Z107 !s90 -reportprogress|300|log_tb.v|
+R10
+Z108 !s100 O31?^8Ae7LN[=Fc7iFI3^1
+Z109 !s108 1366098921.264000
+Z110 !s107 log_tb.v|
+!s85 0
+vlogarithm
+Z111 !s100 AQKV19d9<mK8[W^T:<cR31
+Z112 I]YLM;RZRGPcM;HHmR`m7^2
+Z113 VGz1VfPP9U0j?VQKjECDno3
+R60
+Z114 w1366098666
+Z115 8logarithm.v
+Z116 Flogarithm.v
+L0 21
+R8
+r1
+31
+R10
+Z117 !s108 1366098921.229000
+Z118 !s107 logarithm.v|
+Z119 !s90 -reportprogress|300|logarithm.v|
+!s85 0
+vpipe_if
+Z120 !s100 l7]WYd^F6znilEok`2MhM1
+Z121 I52`[=56azG4km1LeTPQ9]1
+Z122 VCfA2g3oll>0:W15@SmRDi3
+R4
+Z123 w1366618671
+Z124 8pipe_if.v
+Z125 Fpipe_if.v
+L0 21
+R8
+r1
+31
+Z126 !s90 -reportprogress|300|pipe_if.v|
+R10
+Z127 !s108 1366618927.723000
+Z128 !s107 pipe_if.v|
+!s85 0
+vpipe_if_tb
+Z129 I;ZQIcWM6WL`G;5fc^25R]0
+Z130 VlbTILme4^N^@WaYO;Sn>V3
+R60
+Z131 w1366613367
+Z132 8E:/fpga_svn/mem/pipe_if_tb.v
+Z133 FE:/fpga_svn/mem/pipe_if_tb.v
+L0 25
+R8
+r1
+31
+R10
+Z134 !s100 Q;1iSfPd0S5H25iXa2DOO1
+Z135 !s108 1366613394.524000
+Z136 !s107 E:/fpga_svn/mem/pipe_if_tb.v|
+Z137 !s90 -reportprogress|300|-L|mtiAvm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|E:/fpga_svn/mem/pipe_if_tb.v|
+!s85 0
+vram
+Z138 !s100 ?E;RN90:;mRg>WYOYLZgc2
+Z139 IOR]ZcPK[hL?>dG2o:ZQB:3
+Z140 V]WaSfVD<8dXF1[a<@6R9[1
+R4
+Z141 w1366614844
+Z142 8ram.v
+Z143 Fram.v
+L0 26
+R8
+r1
+31
+Z144 !s90 -reportprogress|300|ram.v|
+R10
+Z145 !s108 1366618927.685000
+Z146 !s107 ram.v|
+!s85 0
+vram_writefirst_tb
+Z147 ICLYZXYJdFE453N3J_O`Ei3
+Z148 V@F_<lVn1M6=@9g9]i7jEC1
+R60
+Z149 w1366609861
+Z150 8E:/fpga_svn/mem/ram_writefirst_tb.v
+Z151 FE:/fpga_svn/mem/ram_writefirst_tb.v
+L0 25
+R8
+r1
+31
+R10
+Z152 !s100 CODj]BDD]3J5;27jU=`O^3
+Z153 !s108 1366609874.110000
+Z154 !s107 E:/fpga_svn/mem/ram_writefirst_tb.v|
+Z155 !s90 -reportprogress|300|-L|mtiAvm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|E:/fpga_svn/mem/ram_writefirst_tb.v|
+!s85 0
+vtop_cla_32
+Z156 !s100 Q_3bcjDhkXlIh?58Z7o6b0
+Z157 IZLk_bJO]cmMe]G[_7NCY50
+Z158 VN8A=nf`5OG]VfQ;D1MdLe0
+R4
+Z159 w1366610235
+Z160 8top_cla_32.v
+Z161 Ftop_cla_32.v
+L0 21
+R8
+r1
+31
+Z162 !s90 -reportprogress|300|top_cla_32.v|
+R10
+Z163 !s108 1366618927.647000
+Z164 !s107 top_cla_32.v|
+!s85 0
+vtop_mem
+Z165 IWcDiIU1>@oNQT7Ok]YRi^1
+Z166 V8m>6WSz8cjc:neB@7O3g[2
+R4
+Z167 w1366616714
+Z168 8top_mem.v
+Z169 Ftop_mem.v
+L0 21
+R8
+r1
+31
+Z170 !s90 -reportprogress|300|top_mem.v|
+R10
+Z171 !s100 hfeTR5gZFBAlb7A0NK?<=1
+Z172 !s108 1366618927.798000
+Z173 !s107 top_mem.v|
+!s85 0
+vtop_mem_tb
+Z174 !s100 BZml5eRG2[Q2oPjFXXN8>2
+Z175 I?5=W@I=Mfzj5:>_li=3Wf2
+Z176 VRLN^Mj8dinG<1c<bP4l[d3
+R4
+Z177 w1366614830
+Z178 8top_mem_tb.v
+Z179 Ftop_mem_tb.v
+L0 25
+R8
+r1
+31
+Z180 !s90 -reportprogress|300|top_mem_tb.v|
+R10
+!s85 0
+Z181 !s108 1366618927.834000
+Z182 !s107 top_mem_tb.v|

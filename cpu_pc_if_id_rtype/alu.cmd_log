@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/fpga_svn/cpu_pc_if_id/alu.xst" -ofn "E:/fpga_svn/cpu_pc_if_id/alu.syr" 
+xst -intstyle ise -ifn "E:/fpga_svn/cpu_pc_if_id/alu.xst" -ofn "E:/fpga_svn/cpu_pc_if_id/alu.syr" 
+xst -intstyle ise -ifn "E:/fpga_svn/cpu_pc_if_id/alu.xst" -ofn "E:/fpga_svn/cpu_pc_if_id/alu.syr" 
+xst -intstyle ise -ifn "E:/fpga_svn/cpu_pc_if_id/alu.xst" -ofn "E:/fpga_svn/cpu_pc_if_id/alu.syr" 

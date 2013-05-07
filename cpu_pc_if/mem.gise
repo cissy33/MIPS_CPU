@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="mem.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name=".prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name=".stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name=".xst"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk_div.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clk_div.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="clk_div_tb.fdo"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="log_tb.fdo"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="logarithm.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="logarithm.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="logarithm.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pipe_if.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pipe_if.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="pipe_if.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="pipe_if_tb.fdo"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ram.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ram.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ram.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="ram_writefirst_tb.fdo"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="top_mem.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="top_mem.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="top_mem.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="top_mem.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_mem.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="top_mem.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="top_mem.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="top_mem.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="top_mem_summary.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="top_mem_tb.fdo"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="top_mem_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_LOG" xil_pn:name="vsim.wlf"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="work"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1366076941" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1366076941">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366618918" xil_pn:in_ck="-7769779881950604248" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1366618918">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="add.v"/>
+      <outfile xil_pn:name="cla_16.v"/>
+      <outfile xil_pn:name="cla_2.v"/>
+      <outfile xil_pn:name="cla_32.v"/>
+      <outfile xil_pn:name="cla_4.v"/>
+      <outfile xil_pn:name="cla_8.v"/>
+      <outfile xil_pn:name="clk_div.v"/>
+      <outfile xil_pn:name="clk_div_tb.v"/>
+      <outfile xil_pn:name="clkdiv.v"/>
+      <outfile xil_pn:name="clkdiv_tb.v"/>
+      <outfile xil_pn:name="dffe.v"/>
+      <outfile xil_pn:name="g_p.v"/>
+      <outfile xil_pn:name="log_tb.v"/>
+      <outfile xil_pn:name="logarithm.v"/>
+      <outfile xil_pn:name="pipe_if.v"/>
+      <outfile xil_pn:name="pipe_if_tb.v"/>
+      <outfile xil_pn:name="ram.v"/>
+      <outfile xil_pn:name="ram_writefirst_tb.v"/>
+      <outfile xil_pn:name="top_cla_32.v"/>
+      <outfile xil_pn:name="top_mem.v"/>
+      <outfile xil_pn:name="top_mem_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1366614844" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2692707068386119811" xil_pn:start_ts="1366614844">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366614844" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1656676966683959611" xil_pn:start_ts="1366614844">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366614844" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="9150920065370858837" xil_pn:start_ts="1366614844">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366618918" xil_pn:in_ck="-7769779881950604248" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1366618918">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="add.v"/>
+      <outfile xil_pn:name="cla_16.v"/>
+      <outfile xil_pn:name="cla_2.v"/>
+      <outfile xil_pn:name="cla_32.v"/>
+      <outfile xil_pn:name="cla_4.v"/>
+      <outfile xil_pn:name="cla_8.v"/>
+      <outfile xil_pn:name="clk_div.v"/>
+      <outfile xil_pn:name="clk_div_tb.v"/>
+      <outfile xil_pn:name="clkdiv.v"/>
+      <outfile xil_pn:name="clkdiv_tb.v"/>
+      <outfile xil_pn:name="dffe.v"/>
+      <outfile xil_pn:name="g_p.v"/>
+      <outfile xil_pn:name="log_tb.v"/>
+      <outfile xil_pn:name="logarithm.v"/>
+      <outfile xil_pn:name="pipe_if.v"/>
+      <outfile xil_pn:name="pipe_if_tb.v"/>
+      <outfile xil_pn:name="ram.v"/>
+      <outfile xil_pn:name="ram_writefirst_tb.v"/>
+      <outfile xil_pn:name="top_cla_32.v"/>
+      <outfile xil_pn:name="top_mem.v"/>
+      <outfile xil_pn:name="top_mem_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1366618920" xil_pn:in_ck="-7769779881950604248" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="-3622564406904091749" xil_pn:start_ts="1366618918">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="top_mem_tb.fdo"/>
+      <outfile xil_pn:name="vsim.wlf"/>
+      <outfile xil_pn:name="work"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616098" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616098" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-504369272613034586" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616098" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="9150920065370858837" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616098" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616098" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4267327535860862824" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616098" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616098" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-293062696386279137" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1366616107" xil_pn:in_ck="-3710084916651648776" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-511412726553542268" xil_pn:start_ts="1366616098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="top_mem.lso"/>
+      <outfile xil_pn:name="top_mem.ngc"/>
+      <outfile xil_pn:name="top_mem.ngr"/>
+      <outfile xil_pn:name="top_mem.prj"/>
+      <outfile xil_pn:name="top_mem.stx"/>
+      <outfile xil_pn:name="top_mem.syr"/>
+      <outfile xil_pn:name="top_mem.xst"/>
+      <outfile xil_pn:name="top_mem_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

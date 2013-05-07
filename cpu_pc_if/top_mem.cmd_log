@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/fpga_svn/cpu_pc_imem/top_mem.xst" -ofn "E:/fpga_svn/cpu_pc_imem/top_mem.syr" 

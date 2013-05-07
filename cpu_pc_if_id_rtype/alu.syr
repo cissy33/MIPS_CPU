@@ -1,0 +1,525 @@
+Release 13.3 - xst O.76xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: alu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "alu.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "alu"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : alu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\g_p.v" into library work
+Parsing module <g_p>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\add.v" into library work
+Parsing module <add>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\cla_2.v" into library work
+Parsing module <cla_2>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\cla_4.v" into library work
+Parsing module <cla_4>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\cla_8.v" into library work
+Parsing module <cla_8>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\cla_16.v" into library work
+Parsing module <cla_16>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\cla_32.v" into library work
+Parsing module <cla_32>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\top_cla_32.v" into library work
+Parsing module <top_cla_32>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\barrelshifter32.v" into library work
+Parsing module <barrelshifter32>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\add1.v" into library work
+Parsing module <add1>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\slt.v" into library work
+Parsing module <slt>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\mux4x32.v" into library work
+Parsing module <mux4x32>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\mux2x32.v" into library work
+Parsing module <mux2x32>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\bshifter32_carry.v" into library work
+Parsing module <bshifter32_carry>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\addsub32.v" into library work
+Parsing module <addsub32>.
+Analyzing Verilog file "E:\fpga_svn\cpu_pc_if_id\alu.v" into library work
+Parsing module <alu>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <alu>.
+
+Elaborating module <addsub32>.
+
+Elaborating module <top_cla_32>.
+
+Elaborating module <cla_32>.
+
+Elaborating module <cla_16>.
+
+Elaborating module <cla_8>.
+
+Elaborating module <cla_4>.
+
+Elaborating module <cla_2>.
+
+Elaborating module <add>.
+
+Elaborating module <g_p>.
+
+Elaborating module <add1>.
+WARNING:HDLCompiler:1127 - "E:\fpga_svn\cpu_pc_if_id\addsub32.v" Line 58: Assignment to add_cout ignored, since the identifier is never used
+WARNING:HDLCompiler:91 - "E:\fpga_svn\cpu_pc_if_id\addsub32.v" Line 68: Signal <add_result> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\fpga_svn\cpu_pc_if_id\addsub32.v" Line 69: Signal <addu_result> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\fpga_svn\cpu_pc_if_id\addsub32.v" Line 75: Signal <addu_result> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\fpga_svn\cpu_pc_if_id\addsub32.v" Line 76: Signal <addu_cout> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <slt>.
+
+Elaborating module <bshifter32_carry>.
+
+Elaborating module <barrelshifter32>.
+
+Elaborating module <mux2x32>.
+
+Elaborating module <mux4x32>.
+
+Elaborating module <mux4x32(WIDTH=1)>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <alu>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/alu.v".
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <alu> synthesized.
+
+Synthesizing Unit <addsub32>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/addsub32.v".
+INFO:Xst:3210 - "e:/fpga_svn/cpu_pc_if_id/addsub32.v" line 58: Output port <co> of the instance <add_32> is unconnected or connected to loadless signal.
+    Found 1-bit comparator equal for signal <add_result_addu_result[31]_equal_4_o> created at line 68
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <addsub32> synthesized.
+
+Synthesizing Unit <top_cla_32>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/top_cla_32.v".
+    Summary:
+	no macro.
+Unit <top_cla_32> synthesized.
+
+Synthesizing Unit <cla_32>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/cla_32.v".
+    Summary:
+	no macro.
+Unit <cla_32> synthesized.
+
+Synthesizing Unit <cla_16>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/cla_16.v".
+    Summary:
+	no macro.
+Unit <cla_16> synthesized.
+
+Synthesizing Unit <cla_8>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/cla_8.v".
+    Summary:
+	no macro.
+Unit <cla_8> synthesized.
+
+Synthesizing Unit <cla_4>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/cla_4.v".
+    Summary:
+	no macro.
+Unit <cla_4> synthesized.
+
+Synthesizing Unit <cla_2>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/cla_2.v".
+    Summary:
+	no macro.
+Unit <cla_2> synthesized.
+
+Synthesizing Unit <add>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/add.v".
+    Summary:
+Unit <add> synthesized.
+
+Synthesizing Unit <g_p>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/g_p.v".
+    Summary:
+	no macro.
+Unit <g_p> synthesized.
+
+Synthesizing Unit <add1>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/add1.v".
+    Summary:
+Unit <add1> synthesized.
+
+Synthesizing Unit <slt>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/slt.v".
+    Found 32-bit comparator greater for signal <a[31]_b[31]_LessThan_3_o> created at line 39
+    Found 33-bit comparator greater for signal <temp_a[32]_temp_b[32]_LessThan_5_o> created at line 42
+    Summary:
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <slt> synthesized.
+
+Synthesizing Unit <bshifter32_carry>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/bshifter32_carry.v".
+    Found 5-bit subtractor for signal <b[4]_GND_13_o_sub_1_OUT> created at line 35.
+    Found 32-bit 3-to-1 multiplexer for signal <c> created at line 38.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <bshifter32_carry> synthesized.
+
+Synthesizing Unit <barrelshifter32>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/barrelshifter32.v".
+    Found 32-bit 3-to-1 multiplexer for signal <temp> created at line 35.
+    Summary:
+	inferred 166 Multiplexer(s).
+Unit <barrelshifter32> synthesized.
+
+Synthesizing Unit <mux2x32>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/mux2x32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux2x32> synthesized.
+
+Synthesizing Unit <mux4x32>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/mux4x32.v".
+        WIDTH = 32
+    Found 32-bit 4-to-1 multiplexer for signal <r> created at line 32.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux4x32> synthesized.
+
+Synthesizing Unit <mux4x32_1>.
+    Related source file is "e:/fpga_svn/cpu_pc_if_id/mux4x32.v".
+        WIDTH = 1
+    Found 1-bit 4-to-1 multiplexer for signal <r> created at line 32.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux4x32_1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Comparators                                          : 3
+ 1-bit comparator equal                                : 1
+ 32-bit comparator greater                             : 1
+ 33-bit comparator greater                             : 1
+# Multiplexers                                         : 185
+ 1-bit 2-to-1 multiplexer                              : 163
+ 1-bit 4-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 15
+ 32-bit 3-to-1 multiplexer                             : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Xors                                                 : 67
+ 1-bit xor2                                            : 66
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Comparators                                          : 3
+ 1-bit comparator equal                                : 1
+ 32-bit comparator greater                             : 1
+ 33-bit comparator greater                             : 1
+# Multiplexers                                         : 185
+ 1-bit 2-to-1 multiplexer                              : 163
+ 1-bit 4-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 15
+ 32-bit 3-to-1 multiplexer                             : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Xors                                                 : 67
+ 1-bit xor2                                            : 66
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <alu> ...
+
+Optimizing unit <addsub32> ...
+
+Optimizing unit <barrelshifter32> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block alu, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : alu.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 485
+#      LUT2                        : 17
+#      LUT3                        : 10
+#      LUT4                        : 101
+#      LUT5                        : 99
+#      LUT6                        : 219
+#      MUXCY                       : 30
+#      MUXF7                       : 8
+#      VCC                         : 1
+# IO Buffers                       : 104
+#      IBUF                        : 68
+#      OBUF                        : 36
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  446  out of   9112     4%  
+    Number used as Logic:               446  out of   9112     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    446
+   Number with an unused Flip Flop:     446  out of    446   100%  
+   Number with an unused LUT:             0  out of    446     0%  
+   Number of fully used LUT-FF pairs:     0  out of    446     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         104
+ Number of bonded IOBs:                 104  out of    232    44%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 28.654ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 23951 / 36
+-------------------------------------------------------------------------
+Delay:               28.654ns (Levels of Logic = 26)
+  Source:            aluc<0> (PAD)
+  Destination:       zero (PAD)
+
+  Data Path: aluc<0> to zero
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           133   1.222   2.192  aluc_0_IBUF (aluc_0_IBUF)
+     LUT5:I2->O            3   0.205   0.755  addsub/addu/cla0/cla0/cla0/cla0/cla1/g_p0/p_out1 (addsub/addu/cla0/cla0/cla0/cla0/p<1>)
+     LUT6:I4->O            2   0.203   0.617  addsub/addu/cla0/cla0/cla0/cla0/g_p0/g_out3 (addsub/addu/cla0/cla0/cla0/g<0>)
+     LUT5:I4->O            1   0.205   0.684  addsub/addu/cla0/cla0/g_p0/c_out6_SW0 (N27)
+     LUT6:I4->O            4   0.203   0.684  addsub/addu/cla0/cla0/g_p0/c_out6 (addsub/addu/cla0/cla0/c_out)
+     LUT4:I3->O            1   0.205   0.684  addsub/addu/cla0/cla0/cla1/g_p0/c_out3_SW0 (N33)
+     LUT6:I4->O            1   0.203   0.580  addsub/addu/cla0/cla0/cla1/g_p0/c_out3 (addsub/addu/cla0/cla0/cla1/g_p0/c_out2)
+     LUT4:I3->O            3   0.205   0.755  addsub/addu/cla0/cla0/cla1/g_p0/c_out4 (addsub/addu/cla0/cla0/cla1/c_out)
+     LUT6:I4->O            3   0.203   0.755  addsub/addu/cla0/g_p0/c_out11 (addsub/addu/cla0/g_p0/c_out1)
+     LUT6:I4->O            4   0.203   0.684  addsub/addu/cla0/g_p0/c_out1 (addsub/addu/cla0/c_out)
+     LUT4:I3->O            1   0.205   0.808  addsub/addu/cla0/cla1/cla0/g_p0/c_out3_SW0 (N31)
+     LUT6:I3->O            1   0.205   0.580  addsub/addu/cla0/cla1/cla0/g_p0/c_out3 (addsub/addu/cla0/cla1/cla0/g_p0/c_out2)
+     LUT4:I3->O            3   0.205   0.755  addsub/addu/cla0/cla1/cla0/g_p0/c_out4 (addsub/addu/cla0/cla1/cla0/c_out)
+     LUT6:I4->O            3   0.203   0.755  addsub/addu/cla0/cla1/cla0/cla1/g_p0/c_out1 (addsub/addu/cla0/cla1/cla0/cla1/c_out)
+     LUT6:I4->O            4   0.203   0.684  addsub/addu/cla0/cla1/g_p0/c_out1 (addsub/addu/cla0/cla1/c_out)
+     LUT4:I3->O            1   0.205   0.808  addsub/addu/cla0/cla1/cla1/g_p0/c_out3_SW0 (N29)
+     LUT6:I3->O            1   0.205   0.580  addsub/addu/cla0/cla1/cla1/g_p0/c_out3 (addsub/addu/cla0/cla1/cla1/g_p0/c_out2)
+     LUT4:I3->O            3   0.205   0.755  addsub/addu/cla0/cla1/cla1/g_p0/c_out4 (addsub/addu/cla0/cla1/cla1/c_out)
+     LUT6:I4->O            5   0.203   1.059  addsub/addu/cla0/cla1/cla1/cla1/g_p0/c_out1 (addsub/addu/cla0/cla1/cla1/cla1/c_out)
+     LUT6:I1->O           29   0.203   1.594  addsub/add_result_addu_result[31]_equal_4_o1 (addsub/add_result_addu_result[31]_equal_4_o1)
+     LUT6:I1->O            1   0.203   0.000  select_alu/Mmux_r57_F (N41)
+     MUXF7:I0->O           2   0.131   0.845  select_alu/Mmux_r57 (r_10_OBUF)
+     LUT6:I3->O            1   0.205   0.924  zero<31>2 (zero<31>1)
+     LUT6:I1->O            1   0.203   0.924  zero<31>3 (zero<31>2)
+     LUT5:I0->O            1   0.203   0.579  zero<31>7 (zero_OBUF)
+     OBUF:I->O                 2.571          zero_OBUF (zero)
+    ----------------------------------------
+    Total                     28.654ns (8.615ns logic, 20.039ns route)
+                                       (30.1% logic, 69.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.65 secs
+ 
+--> 
+
+Total memory usage is 197804 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
