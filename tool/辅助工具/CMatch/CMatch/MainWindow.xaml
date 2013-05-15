@@ -1,0 +1,73 @@
+﻿<Window x:Class="CMatch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="inputbox" Grid.Column="0" TextWrapping="Wrap" TextChanged="TextBox_TextChanged" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="50"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid x:Name="titleGrd">
+                        <!--代码实现-->
+                    </Grid>
+                    <TextBlock Grid.Column="1" Text="State" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                </Grid>
+                
+                <ScrollViewer Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid x:Name="textGrd">
+                            <!--代码实现-->
+                        </Grid>
+                        <Grid x:Name="stateGrd" Grid.Column="1">
+                            <!--代码实现-->
+                        </Grid>
+                    </Grid>
+                </ScrollViewer>
+            </Grid>
+            <GridSplitter Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Stretch" Width="5"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel>
+                <Button Content="MATCH" Click="click_match" Height="30"></Button>
+                <Button Content="CLEAR" Margin="0" VerticalContentAlignment="Center" Height="30" Click="click_clear"/>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="80"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock TextWrapping="Wrap">规则：</TextBlock>
+                <TextBlock TextWrapping="Wrap" Grid.Row="1">1.不接受中文字符</TextBlock>
+                <TextBlock TextWrapping="Wrap" Grid.Row="2">
+                    2.格式要求为以\t分割，最后以\t结尾,例如time\ta\t
+                </TextBlock>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
